@@ -20,6 +20,27 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "space-infix-ops": [
+            "error",
+            {"int32Hint": false}
+        ],
+        "max-len": [
+            "error",
+            80,
+            2
+        ],
+        "prefer-const": "error",
+        "no-const-assign": "error",
+        "no-var": "error",
+        "no-new-object": "error",
+        "no-array-constructor": "error",
+        "func-style": ["error", "declaration"],
+        "prefer-arrow-callback": "error",
+        "brace-style": "error"
     }
 }
