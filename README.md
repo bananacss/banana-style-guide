@@ -53,7 +53,7 @@
 
 ### Indentation
 
-*The unit of Tab indentation is 2 spaces.*
+*The unit of indentation is 2 spaces.*
 
 **ESLint:** [indent](http://eslint.org/docs/rules/indent)
 
