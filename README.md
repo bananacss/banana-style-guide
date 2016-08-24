@@ -166,7 +166,7 @@ if (foo == 45) {
 
 ```js
 // Good
-const foo = "bar";
+const foo = 'bar';
 
 if (foo === 45) {
   // statements
@@ -223,8 +223,8 @@ var foo = "bar";
 
 ```js
 // good
-const foo = "bar";
-const foo = "bar";
+const foo = 'bar';
+const foo = 'bar';
 ```
 
 *If you must reassign references, use let instead of var.*
@@ -529,13 +529,13 @@ if (foo.replace(/var\(/, "").replace(/\)/, "") === "--bar") {
 ```js
 // Good
 
-let foo = "var(--bar)";
+let foo = 'var(--bar)';
 
 let value = foo
-              .replace(/var\(/, "") // Remove the 'var('
-              .replace(/\)/, ""); // Remove the ')'
+              .replace(/var\(/, '') // Remove the 'var('
+              .replace(/\)/, ''); // Remove the ')'
 
-if (foo === "--bar") {
+if (foo === '--bar') {
   // statements
 }
 ```
